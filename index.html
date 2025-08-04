@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пиар услуги для защиты ваших интересов | Андрианов Александр</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #000000 0%, #1a1a1a 50%, #2d2d2d 100%);
+        }
+        .card-hover:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        @media (max-width: 768px) {
+            .media-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+        }
+        .fade-in {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body class="font-sans bg-gray-50 text-gray-800">
+
+    <!-- Hero Section -->
+    <section class="hero-gradient text-white py-16 md:py-24">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center fade-in">
+                <h1 class="text-3xl md:text-5xl font-bold mb-6">Пиар услуги для защиты ваших интересов</h1>
+                <p class="text-xl md:text-2xl mb-8">Для адвокатов по уголовному, гражданскому и семейному праву!</p>
+                <p class="text-lg mb-8">Направим общественное мнение в выгодное для вашего клиента русло. Возьмем на себя информационное сопровождение дел, когда все правовые методы уже бессильны.</p>
+                <a href="#contact" class="bg-yellow-500 text-black font-bold py-3 px-8 rounded-full hover:bg-yellow-400 transition duration-300 inline-block">
+                    Защитить клиента
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Needed Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Для чего все это нужно</h2>
+                <div class="w-24 h-1 bg-yellow-500 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Reason 1 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-yellow-500 mb-4">
+                        <i class="fas fa-money-bill-wave text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">У конкурирующей стороны есть деньги и связи</h3>
+                    <p class="text-gray-600">Когда противник уверен в победе благодаря своим ресурсам, мы создаем общественный резонанс, который уравнивает шансы.</p>
+                </div>
+                
+                <!-- Reason 2 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-bullhorn text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Черный пиар против вашего клиента</h3>
+                    <p class="text-gray-600">Мы эффективно нейтрализуем негативные информационные атаки и создаем положительный образ вашего клиента.</p>
+                </div>
+                
+                <!-- Reason 3 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-balance-scale text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Корпоративный спор не в пользу клиента</h3>
+                    <p class="text-gray-600">Когда юридические аргументы недостаточны, мы привлекаем общественное внимание к несправедливости ситуации.</p>
+                </div>
+                
+                <!-- Reason 4 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-handshake text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Несправедливый раздел бизнеса</h3>
+                    <p class="text-gray-600">Мы помогаем предотвратить нечестные схемы при разделе активов через создание информационного давления.</p>
+                </div>
+                
+                <!-- Reason 5 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-heart-broken text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Сложный развод с угрозами</h3>
+                    <p class="text-gray-600">Когда бывший супруг пытается забрать все, мы защищаем интересы вашего клиента в информационном пространстве.</p>
+                </div>
+                
+                <!-- Reason 6 -->
+                <div class="bg-gray-50 p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-gavel text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Бездействие властей</h3>
+                    <p class="text-gray-600">В случаях, когда закон безмолвствует, мы создаем общественный резонанс, который заставляет власти действовать.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Capabilities -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Наши возможности</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Capability 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-newspaper text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Освещение в федеральных СМИ</h3>
+                    <p class="text-gray-600">Подсветим дело в крупнейших федеральных СМИ с выгодной для вас стороны.</p>
+                </div>
+                
+                <!-- Capability 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fab fa-telegram text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Социальные сети и Telegram</h3>
+                    <p class="text-gray-600">Опубликуем информацию на крупных телеграмм-каналах и группах в социальных сетях.</p>
+                </div>
+                
+                <!-- Capability 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-users text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">PR-акции поддержки</h3>
+                    <p class="text-gray-600">Проведем PR-акции в поддержку вашего клиента для создания положительного образа.</p>
+                </div>
+                
+                <!-- Capability 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-star text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Подключение экспертов</h3>
+                    <p class="text-gray-600">Привлечем профильных экспертов, звезд и лидеров мнений для большего резонанса.</p>
+                </div>
+                
+                <!-- Capability 5 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-bullseye text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Максимальная огласка</h3>
+                    <p class="text-gray-600">Предадим максимальную огласку важным для вашего дела фактам.</p>
+                </div>
+                
+                <!-- Capability 6 -->
+                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <div class="text-blue-600 mb-4">
+                        <i class="fas fa-trophy text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Топ СМИ</h3>
+                    <p class="text-gray-600">Выведем информацию о вашем деле в топ самых популярных СМИ России.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Study -->
+    <section id="cases" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Наши кейсы</h2>
+                <div class="w-24 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            
+            <div class="max-w-4xl mx-auto mb-12">
+                <h3 class="text-2xl font-semibold mb-6">Дело Ксении Душановой</h3>
+                <p class="text-gray-700 mb-6">В конце 2024 года на продюсера Ксению Душанову было совершено нападение. Бывший молодой человек проник в дом, где девушка находилась с детьми, жестоко ее избил и нанес многочисленные увечья. Он и до этого регулярно угрожал Ксении расправой, обещал сделать ее инвалидом, облить кислотой. Она дважды писала заявления в полицию, но делу так и не давали ход.</p>
+                <p class="text-gray-700 mb-6">Был риск, что и в этот раз злоумышленник может выйти сухим из воды. Нам удалось придать делу общественный резонанс. Подонка арестовали и теперь от ответственности ему не уйти, замять дело не получится.</p>
+                <p class="text-gray-500 italic">Было много и других резонансных дел, но по понятным причинам все они находятся под NDA</p>
+            </div>
+            
+            <div class="media-grid">
+                <!-- Media 1 -->
+                <a href="https://vm-ru.turbopages.org/turbo/vm.ru/s/news/1193298-zhitel-sochi-reshil-otomstit-byvshej-za-razryv-i-vybil-ej-glaz-gaechnym-klyuchom" target="_blank" class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <img src="https://andrianov-agency.ru/wp-content/themes/sandrianov/lp/advokat/img/advocat-case-01.jpg" alt="Вечерняя Москва" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-medium text-gray-800">Вечерняя Москва</h4>
+                    </div>
+                </a>
+                
+                <!-- Media 2 -->
+                <a href="https://lenta-ru.turbopages.org/turbo/lenta.ru/s/news/2024/12/23/v-rossiyskom-gorode-sadist-vykolol-glaz-byvshey-vozlyublennoy-klyuchom-dlya-zazhiganiya-i-popalsya/" target="_blank" class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <img src="https://andrianov-agency.ru/wp-content/themes/sandrianov/lp/advokat/img/advocat-case-02.jpg" alt="Lenta.ru" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-medium text-gray-800">Lenta.ru</h4>
+                    </div>
+                </a>
+                
+                <!-- Media 3 -->
+                <a href="https://dzen.ru/a/Z2kO4n7nKAkEbQ9b?ysclid=m52lruqyap118141680" target="_blank" class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <img src="https://andrianov-agency.ru/wp-content/themes/sandrianov/lp/advokat/img/advocat-case-03.jpg" alt="Царьград" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-medium text-gray-800">Царьград</h4>
+                    </div>
+                </a>
+                
+                <!-- Media 4 -->
+                <a href="https://ren-tv.turbopages.org/turbo/ren.tv/s/news/kriminal/1292504-kadry-doprosa-zhitelia-vybivshego-glaz-podruge-gaechnym-kliuchom-zhitelia-sochi" target="_blank" class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <img src="https://andrianov-agency.ru/wp-content/themes/sandrianov/lp/advokat/img/advocat-case-04.jpg" alt="Рен ТВ" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-medium text-gray-800">Рен ТВ</h4>
+                    </div>
+                </a>
+                
+                <!-- Media 5 -->
+                <a href="https://rg-ru.turbopages.org/rg.ru/s/2024/12/23/reg-ufo/devushka-iz-sochi-poteriavshaia-iz-za-abiuzera-glaz-raskryla-rg-detali-napadeniia.html" target="_blank" class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <img src="https://andrianov-agency.ru/wp-content/themes/sandrianov/lp/advokat/img/advocat-case-05.jpg" alt="RG RU" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-medium text-gray-800">RG RU</h4>
+                    </div>
+                </a>
+                
+                <!-- Media 6 -->
+                <a href="https://mash-ru.turbopages.org/turbo/mash.ru/s/krd/news/202512/" target="_blank" class="bg-gray-50 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition duration-300 card-hover">
+                    <img src="https://andrianov-agency.ru/wp-content/themes/sandrianov/lp/advokat/img/advocat-case-06.jpg" alt="Mash" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-medium text-gray-800">Mash</h4>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-black text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">Готовы защитить интересы вашего клиента?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">Оставьте заявку и мы свяжемся с вами для обсуждения деталей сотрудничества.</p>
+            <a href="#contact" class="bg-white text-blue-600 font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition duration-300 inline-block">
+                Оставить заявку
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-md overflow-hidden">
+                <div class="md:flex">
+                    <div class="md:w-1/2 bg-black text-white p-8">
+                        <h2 class="text-2xl font-bold mb-4">Контакты</h2>
+                        <p class="mb-6">Свяжитесь с нами для консультации по вашему делу.</p>
+                        
+                        <div class="mb-6">
+                            <h3 class="font-semibold mb-2"><i class="fas fa-phone-alt mr-2"></i> Телефон</h3>
+                            <p>+7 (XXX) XXX-XX-XX</p>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="md:w-1/2 p-8">
+                        <h2 class="text-2xl font-bold mb-6 text-gray-800">Оставить заявку</h2>
+                        <form id="contactForm">
+                            <div class="mb-4">
+                                <label for="name" class="block text-gray-700 mb-2">Ваше имя</label>
+                                <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="phone" class="block text-gray-700 mb-2">Телефон</label>
+                                <input type="tel" id="phone" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            
+                            <div class="mb-4">
+                                <label for="email" class="block text-gray-700 mb-2">Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="message" class="block text-gray-700 mb-2">Опишите ситуацию</label>
+                                <textarea id="message" rows="4" class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full bg-yellow-500 text-black font-bold py-3 px-4 rounded-md hover:bg-yellow-400 transition duration-300">
+                                Отправить заявку
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <span class="text-xl font-bold">PRиоритет</span>
+                    <p class="text-gray-400 mt-2">Ваша репутация - наш приоритет</p>
+                </div>
+                
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-yellow-500 transition">
+                        <i class="fab fa-telegram text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-whatsapp text-xl"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-vk text-xl"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2025 приоритет. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple form submission handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Спасибо! Ваша заявка отправлена. Мы свяжемся с вами в ближайшее время.');
+            this.reset();
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Animation on scroll
+        const fadeElements = document.querySelectorAll('.fade-in');
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, {
+            threshold: 0.1
+        });
+
+        fadeElements.forEach(element => {
+            observer.observe(element);
+        });
+    </script>
+</body>
+</html>
